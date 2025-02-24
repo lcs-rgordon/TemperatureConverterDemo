@@ -13,6 +13,7 @@
 		817E97542D6CE2D20021AAD1 /* TemperatureConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817E974F2D6CE2D20021AAD1 /* TemperatureConverterApp.swift */; };
 		817E97592D6CE3630021AAD1 /* FahrenheitToCelsius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817E97582D6CE3560021AAD1 /* FahrenheitToCelsius.swift */; };
 		817E975B2D6CE4570021AAD1 /* FahrenheitToCelsiusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817E975A2D6CE4500021AAD1 /* FahrenheitToCelsiusViewModel.swift */; };
+		817E975D2D6CE7A90021AAD1 /* FahrenheitToCelsiusConversionItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817E975C2D6CE79E0021AAD1 /* FahrenheitToCelsiusConversionItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		817E974F2D6CE2D20021AAD1 /* TemperatureConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterApp.swift; sourceTree = "<group>"; };
 		817E97582D6CE3560021AAD1 /* FahrenheitToCelsius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FahrenheitToCelsius.swift; sourceTree = "<group>"; };
 		817E975A2D6CE4500021AAD1 /* FahrenheitToCelsiusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FahrenheitToCelsiusViewModel.swift; sourceTree = "<group>"; };
+		817E975C2D6CE79E0021AAD1 /* FahrenheitToCelsiusConversionItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FahrenheitToCelsiusConversionItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		817E97552D6CE2D70021AAD1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				817E975C2D6CE79E0021AAD1 /* FahrenheitToCelsiusConversionItemView.swift */,
 				817E974E2D6CE2D20021AAD1 /* FahrenheitToCelsiusView.swift */,
 			);
 			path = Views;
@@ -173,6 +176,7 @@
 				817E97532D6CE2D20021AAD1 /* FahrenheitToCelsiusView.swift in Sources */,
 				817E97542D6CE2D20021AAD1 /* TemperatureConverterApp.swift in Sources */,
 				817E975B2D6CE4570021AAD1 /* FahrenheitToCelsiusViewModel.swift in Sources */,
+				817E975D2D6CE7A90021AAD1 /* FahrenheitToCelsiusConversionItemView.swift in Sources */,
 				817E97592D6CE3630021AAD1 /* FahrenheitToCelsius.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

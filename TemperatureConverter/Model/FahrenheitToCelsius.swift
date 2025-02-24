@@ -5,9 +5,12 @@
 //  Created by Russell Gordon on 2025-02-24.
 //
 
-struct FahrenheitToCelsius {
+import Foundation
+
+struct FahrenheitToCelsius: Identifiable {
     
     // MARK: Stored properties
+    let id = UUID()
     let temperatureInFahrenheit: Double
     
     // MARK: Computed properties

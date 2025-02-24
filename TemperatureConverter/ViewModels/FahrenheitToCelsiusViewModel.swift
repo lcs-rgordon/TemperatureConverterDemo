@@ -5,9 +5,13 @@
 //  Created by Russell Gordon on 2025-02-24.
 //
 
+import SwiftUI
+
+@Observable
 class FahrenheitToCelsiusViewModel {
     
     // MARK: Stored properties
+    var resultHistory: [FahrenheitToCelsius] = []
     var providedTemperatureInFahrenheit: String
     var recoverySuggestion: String = ""
     
@@ -44,6 +48,17 @@ class FahrenheitToCelsiusViewModel {
     ) {
         self.providedTemperatureInFahrenheit = providedTemperatureInFahrenheit
         self.recoverySuggestion = recoverySuggestion
+    }
+    
+    // MARK: Function(s)
+    func saveResult() {
+        
+        if let conversionResult = self.conversionResult {
+            
+            self.resultHistory.insert(conversionResult, at: 0)
+            
+        }
+        
     }
     
 }
