@@ -11,7 +11,9 @@ import SwiftUI
 struct TemperatureConverterApp: App {
     var body: some Scene {
         WindowGroup {
-            FahrenheitToCelsiusView()
+            NavigationStack {
+                FahrenheitToCelsiusView()
+            }
         }
     }
 }
