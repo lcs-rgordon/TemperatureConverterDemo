@@ -11,6 +11,7 @@
 		817E97522D6CE2D20021AAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817E974D2D6CE2D20021AAD1 /* Assets.xcassets */; };
 		817E97532D6CE2D20021AAD1 /* FahrenheitToCelsiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817E974E2D6CE2D20021AAD1 /* FahrenheitToCelsiusView.swift */; };
 		817E97542D6CE2D20021AAD1 /* TemperatureConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817E974F2D6CE2D20021AAD1 /* TemperatureConverterApp.swift */; };
+		817E97592D6CE3630021AAD1 /* FahrenheitToCelsius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817E97582D6CE3560021AAD1 /* FahrenheitToCelsius.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		817E974D2D6CE2D20021AAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		817E974E2D6CE2D20021AAD1 /* FahrenheitToCelsiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FahrenheitToCelsiusView.swift; sourceTree = "<group>"; };
 		817E974F2D6CE2D20021AAD1 /* TemperatureConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterApp.swift; sourceTree = "<group>"; };
+		817E97582D6CE3560021AAD1 /* FahrenheitToCelsius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FahrenheitToCelsius.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		817E97562D6CE2DE0021AAD1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				817E97582D6CE3560021AAD1 /* FahrenheitToCelsius.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			files = (
 				817E97532D6CE2D20021AAD1 /* FahrenheitToCelsiusView.swift in Sources */,
 				817E97542D6CE2D20021AAD1 /* TemperatureConverterApp.swift in Sources */,
+				817E97592D6CE3630021AAD1 /* FahrenheitToCelsius.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
